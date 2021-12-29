@@ -1,9 +1,10 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
-tagline: hello
+title: Sites By Steph # the name of your site, e.g. ACME Corp.
+tagline: Freelance web design and web development services from Philadelphia.
 email: email
 description: >-
+  Freelance web design and web development services from Philadelphia. Focu
   description
 author: me
 plugins:
