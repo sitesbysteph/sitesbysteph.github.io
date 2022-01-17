@@ -1,6 +1,9 @@
 $backgroundColor: #e7e5df;
 $bodyColor: #000000;
 $baseurl: "{{ site.baseurl }}";
+$primary: #f4af54;
+$secondary: #cb8d46;
+$font-family-sans-serif: "Poppins", sans-serif;
 
 body {
   background: $backgroundColor;
@@ -10,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1em;
+  font-family: $font-family-sans-serif;
 }
 
 section {
