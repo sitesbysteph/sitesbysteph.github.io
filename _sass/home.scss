@@ -1,0 +1,10 @@
+#home h3 {
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  #home-img {
+    max-width: 80%;
+    height: auto;
+  }
+}

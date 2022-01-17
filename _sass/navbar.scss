@@ -1,0 +1,36 @@
+.navbar {
+  margin-top: 2em;
+}
+
+.active {
+  background-color: $primary;
+  color: white;
+}
+
+.nav-item {
+  text-align: center;
+  margin-right: 0.8em;
+  border-radius: 1em;
+  color: black;
+  padding: 0.2em;
+}
+
+.nav-item:hover {
+  background-color: $primary;
+  border-radius: 1em;
+  border-width: 0;
+  color: white;
+}
+
+#nav-button {
+  border-width: 0;
+  padding: 0.2em 0.4em;
+  border-radius: 2em;
+  margin-right: 0.8em;
+}
+
+.navbar-nav {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: black;
+}

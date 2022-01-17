@@ -1,0 +1,54 @@
+#services {
+  background-color: #ccd2c4;
+}
+
+#services h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.card {
+  background: #e7e5df;
+  box-shadow: 5px 5px 10px 5px #888888;
+}
+
+.card-title {
+  padding: 1em 0;
+}
+
+.card-img-top {
+  padding: 2em 4em 0em 4em;
+}
+
+.card-body {
+  padding: 0 2em;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
+
+.card-footer {
+  background-color: #e7e5df;
+}
+
+.accordion-item {
+  background-color: #e7e5df;
+  border: 0;
+}
+
+.accordion-button {
+  background-color: #e7e5df;
+  font-weight: 500;
+  color: #f4af54;
+}
+
+.accordion-header {
+  background-color: #e7e5df;
+}
+
+@media (max-width: 992px) {
+  .col {
+    margin-top: 2em;
+  }
+}

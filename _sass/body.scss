@@ -1,0 +1,17 @@
+$backgroundColor: #e7e5df;
+$bodyColor: #000000;
+$baseurl: "{{ site.baseurl }}";
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-weight: 300;
+  line-height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1em;
+}
+
+section {
+  padding: 4em 0;
+}
