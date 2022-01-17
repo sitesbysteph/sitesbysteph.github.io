@@ -4,10 +4,13 @@ title: Sites By Steph # the name of your site, e.g. ACME Corp.
 tagline: Freelance web design and web development services from Philadelphia.
 email: email
 description: >-
-  Freelance web design and web development services from Philadelphia. Focu
-  description
+  Our human centric approach to web design and web development are
 author: me
 plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
+collections:
+  sections:
+    sort_by: order
