@@ -1,5 +1,5 @@
 #services {
-  background-color: #ccd2c4;
+  background-color: $background-light;
 }
 
 #services h1 {
@@ -8,7 +8,6 @@
 }
 
 .card {
-  background: #e7e5df;
   box-shadow: 5px 5px 10px 5px #888888;
 }
 
@@ -17,34 +16,27 @@
 }
 
 .card-img-top {
-  padding: 2em 4em 0em 4em;
+  background-color: $primary-light;
+  padding: 2em 4em;
 }
 
 .card-body {
   padding: 0 2em;
-}
-
-.card-text {
-  font-size: 0.9em;
-}
-
-.card-footer {
-  background-color: #e7e5df;
+  background-color: $background-light;
 }
 
 .accordion-item {
-  background-color: #e7e5df;
   border: 0;
 }
 
 .accordion-button {
-  background-color: #e7e5df;
   font-weight: 500;
-  color: #f4af54;
+  color: $secondary;
 }
 
-.accordion-header {
-  background-color: #e7e5df;
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: $secondary;
 }
 
 @media (max-width: 992px) {

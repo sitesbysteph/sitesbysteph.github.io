@@ -2,6 +2,14 @@
   font-weight: 400;
 }
 
+.fa-envelope {
+  color: $secondary;
+}
+
+.btn-primary {
+  border-radius: 2em;
+}
+
 @media (min-width: 992px) {
   #home-img {
     max-width: 80%;

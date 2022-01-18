@@ -1,21 +1,20 @@
-$backgroundColor: #e7e5df;
-$bodyColor: #000000;
+$text-color: #000000;
 $baseurl: "{{ site.baseurl }}";
-$primary: #f4af54;
-$secondary: #cb8d46;
-$font-family-sans-serif: "Poppins", sans-serif;
+$primary: #056cf2;
+$primary-light: #168bf2;
+$secondary: #f2ace0;
+$background-light: #f7f7f7;
+$background-main: #f0f0f0;
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
+  background: $background-main;
+  color: $text-color;
   font-weight: 300;
   line-height: 1.5em;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-size: 1em;
-  font-family: $font-family-sans-serif;
 }
 
 section {
-  padding: 4em 0;
+  margin: 2em 0;
+  padding: 2em 0;
 }
