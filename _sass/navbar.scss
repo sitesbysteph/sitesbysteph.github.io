@@ -1,5 +1,4 @@
 nav.navbar {
-  //   border-bottom: 0.2em solid $tertiarary;
   background-color: $background-main;
   font-size: 1.2em;
   font-weight: 400;
@@ -25,23 +24,17 @@ nav.navbar {
   }
 }
 
-// .nav-item.nav-link.active {
-//   background-color: $primary;
-//   color: white;
-// }
-
 .nav-item {
-  //   text-align: center;
   margin-right: 0.8em;
   border-radius: 1em;
-  padding: 0.2em;
+  padding: 0.2em 0.3em;
   display: inline-block;
 }
 
 .nav-item:hover {
+  padding: 0.2em 0.3em;
   background-color: $primary;
   border-radius: 1em;
-  border-width: 0;
   color: white;
 }
 
