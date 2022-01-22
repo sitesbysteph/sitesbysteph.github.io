@@ -1,0 +1,16 @@
+#about-img {
+  border-radius: 50%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #about-img {
+    margin: auto;
+    width: 50%;
+    height: auto;
+  }
+}
+
+#about button {
+  margin: 1em 1em 1em 0;
+}

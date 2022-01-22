@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+{% seo %}
+
+{% include head.html %}
+
+<body>
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% assign sections = site.sections | sort: "order" %}
+  {% for section in sections %}
+    {{ section.content }}
+  {% endfor %}
+
+  {% include footer.html %}
+</body>
+</html>

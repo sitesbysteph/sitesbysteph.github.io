@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-nav me-auto">     
+      {% for item in site.data.navbar %}
+        {% assign link = item.link | append: ".html" %}
+          {% if page.url == item.link or page.url == link %}
+            <a href="{{ item.link }}" class="nav-item nav-link active"> {{ item.name }}</a>
+          {% else %}
+            <a href="{{ item.link }}" class="nav-item nav-link"> {{ item.name }}</a>
+          {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="navbar-nav">
+      <a href="mailto:sitesbystephanie@gmail.com" class="nav-item nav-link" id="email"><i class="far fa-envelope" /> sitesbystephanie@gmail.com</a>
+
+    </div>
+  </div>
+</nav>

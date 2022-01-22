@@ -1,0 +1,43 @@
+nav.navbar {
+  background-color: $background-main;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: $primary;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+@media (max-width: 576px) {
+  nav.navbar {
+    font-size: 1em;
+  }
+
+  #email {
+    display: none;
+  }
+}
+
+.nav-item {
+  margin-right: 0.8em;
+  border-radius: 1em;
+  padding: 0.2em 0.3em;
+  display: inline-block;
+}
+
+.nav-item:hover {
+  padding: 0.2em 0.3em;
+  background-color: $primary;
+  border-radius: 1em;
+  color: white;
+}
+
+.nav-item.nav-link .fa-envelope {
+  color: $secondary;
+}
