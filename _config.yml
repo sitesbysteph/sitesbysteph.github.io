@@ -7,8 +7,7 @@ description: >-
   I am a freelance web designer from Philadelphia with a mission to create modern, user-friendly and responsive websites that are reflective of the businesses
   they were created for. My approach is deeply human-centered, and I strive to provide an outstanding customer
   experience at achievable rates.
-author:
-  name: Steph
+author: Steph
 plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
