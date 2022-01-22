@@ -1,11 +1,14 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: Sites By Steph # the name of your site, e.g. ACME Corp.
-tagline: Freelance web design and web development services from Philadelphia.
+tagline: Freelance web design and web development services
 email: email
 description: >-
-  Our human centric approach to web design and web development are
-author: me
+  I am a freelance web designer from Philadelphia with a mission to create modern, user-friendly and responsive websites that are reflective of the businesses
+  they were created for. My approach is deeply human-centered, and I strive to provide an outstanding customer
+  experience at achievable rates.
+author:
+  name: Steph
 plugins:
   - jekyll-autoprefixer
   - jekyll-seo-tag
