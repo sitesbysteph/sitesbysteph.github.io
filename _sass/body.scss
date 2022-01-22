@@ -18,3 +18,9 @@ section {
   margin: 2em 0;
   padding: 2em 0;
 }
+
+button:hover {
+  background-color: $secondary !important;
+  border-color: $secondary !important;
+  color: $primary !important;
+}

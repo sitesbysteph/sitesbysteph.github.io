@@ -9,6 +9,12 @@
 
 .card {
   box-shadow: 5px 5px 10px 5px #888888;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 1000;
 }
 
 .card-title {
